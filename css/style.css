@@ -28,7 +28,6 @@ h1, h2{
 
 #logo-image > div{
     display: inline-block;
-    vertical-align: middle;
 }
 
 .heading{
@@ -58,8 +57,150 @@ h1, h2{
 }
 
 #nav-li > a:hover{
-    color: white;
+    color: ivory;
     background-color: black;
+    
+}
+
+/* Main article */
+
+.main-article{
+    background-color: black;
+    background-size: cover;
+    overflow: hidden;
+    
+    
+}
+
+#main-article-heading h2{
+    font-size: 2em;
+    color: ivory;
+
 }
 
 
+.article-text{
+    font-size: 1.4em;
+    color: ivory;
+    margin-right: 200px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+
+#article-image{
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+}
+#top-article{
+    padding-top: 1em;
+    overflow: hidden;
+}
+#side-video h2{
+    color: ivory;
+    font-size: 2em;
+}
+
+#side-video{
+    text-align: center;
+    margin: 3em;
+    
+}
+#operators{
+    background-image:url(/images/operators-backgroung.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+#operators h2{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(199, 199, 199);
+}
+#operators div{
+    display: inline-block; 
+    padding: 100px;
+
+}
+#operators p{
+    color: rgb(199, 199, 199);
+    background-color: rgb(39, 39, 37);
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    border-color: rgb(199, 199, 199);
+    border-style: solid;
+    border-width: 1px;
+    
+}
+#operator1{
+    background-image:url(/images/ghost.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+#operator2{
+    background-image:url(/images/roze.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#operator3{
+    background-image:url(/images/nikto.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#operator4{
+    background-image:url(/images/price.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* Footer */
+
+footer {
+	background-color: black;
+	padding: 2em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+footer > a {
+	color: white;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 1.3rem;
+}
+footer > p {
+	color:white;
+    font-size: 1.3rem;
+}
+footer > span {
+	color: white;
+    font-size: 1.3rem;
+}
+
+footer > a:hover{
+    background-color: white;
+    color:black;
+}
+
+/* Map */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
