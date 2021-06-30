@@ -26,6 +26,7 @@ h1, h2{
     height: 300px;
 }
 
+
 #logo-image > div{
     display: inline-block;
 }
@@ -88,7 +89,6 @@ h1, h2{
 }
 
 #article-image{
-    border-radius: 25px;
     padding: 15px;
     width: 200px;
     height: 150px;
@@ -160,6 +160,28 @@ h1, h2{
     background-size: cover; 
 }
 
+/* Photos */
+
+section{
+    background-color: black;
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photos img{
+    width: 100%;
+    display: inline-block;
+    height: 250px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+
 /* Footer */
 
 footer {
@@ -191,6 +213,63 @@ footer > a:hover{
     background-color: white;
     color:black;
 }
+/* Form */
+
+.form-section {
+    clear:left; 
+    background: url("/images/warzone4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: relative;
+    float: right;
+    padding: 10px;
+    top: 450px;
+    right: 5px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: black;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: white;
+    color: black;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: black;
+    color: white;
+}
+
 
 /* Map */
 #map-wrapper {
@@ -203,4 +282,8 @@ footer > a:hover{
     height: 100%;
     width: 100%;
     border: none;
+}
+
+@media all and (max-width: 500px){
+    
 }
