@@ -19,7 +19,7 @@ h1, h2{
 }
 
 #heading{
-    background-image: url(/images/verdansk-1.jpg);
+    background-image: url(../images/verdansk-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
@@ -108,7 +108,7 @@ h1, h2{
     
 }
 #operators{
-    background-image:url(./images/operators-backgroung.jpg);
+    background-image:url(../images/operators-backgroung.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -139,23 +139,23 @@ h1, h2{
     
 }
 #operator1{
-    background-image:url(./images/ghost.webp);
+    background-image:url(../images/ghost.webp);
     background-repeat: no-repeat;
     background-size: cover; 
     
 }
 #operator2{
-    background-image:url(./images/roze.png);
+    background-image:url(../images/roze.png);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 #operator3{
-    background-image:url(./images/nikto.webp);
+    background-image:url(../images/nikto.webp);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 #operator4{
-    background-image:url(./images/price.png);
+    background-image:url(../images/price.png);
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -217,7 +217,7 @@ footer > a:hover{
 
 .form-section {
     clear:left; 
-    background: url("./images/warzone4.jpg");
+    background: url("../images/warzone4.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
